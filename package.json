@@ -6,6 +6,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
     "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
     "mdbreact": "^4.21.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -16,6 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "pbuild": "node ./server.js",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },

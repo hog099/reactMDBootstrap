@@ -1,0 +1,131 @@
+.container-highlights{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 60px;    
+    padding-left: 80px;    
+    padding-right: 80px;    
+}
+
+.container-maintitle{
+    text-align: center;
+}
+
+.container-maintitle h2{
+    font-weight: bold;
+}
+.container-maintitle h2 span{
+    color: #f70b0b;
+}
+
+.container-maintitle p{
+    font-size: 20px
+}
+
+.cardhighlight{
+    position: relative;
+    width: auto;
+    min-height: 1px;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    padding: none;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.cardhighlight-container{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.img-cardhighlight{
+    /* position: absolute; */
+    position: relative;
+    overflow: hidden;    
+}
+
+.img-cardhighlight img{
+    margin: auto;
+    padding: 0;
+    display: block;
+}
+
+.cardshortinfo{
+    position: absolute;
+    margin-bottom: -0.8rem;
+    left: 0;
+    bottom: 0;
+    background: -webkit-linear-gradient(top,transparent,#000);
+    background: linear-gradient(to bottom,transparent,#000);
+    width: 100%;
+    padding: 45px 10px 8px 5px;
+    color: #fff;
+}
+
+
+.cardshortinfo i{
+    float: left;
+    margin-right: 0.2rem;
+    margin-top: 0.1rem;
+}   
+
+.cardshortinfo span{
+    float: right;
+    font-weight: bold;
+    font-size: 30px;
+}   
+
+.cardhighlight .cardhighlight-footer{
+    padding: 15px;
+    position: relative;
+    min-height: 80px;
+}
+
+
+.cardhighlight-footer h3{
+    font-size: 20px;
+}
+
+.cardhighlight-footer .rating{
+    float: left;
+    margin-bottom: 4rem;
+}
+
+.cardhighlight-footer .iconright{
+    float: right;
+}
+
+.cardhighlight-footer .iconright i{
+   font-size: 30px;
+   margin-top: -1rem;
+   color: #555658;
+   animation: pulse 0.7s infinite;
+   animation-direction: alternate;
+   -webkit-animation-name: pulse;
+   animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      -webkit-filter: brightness(100%);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+      -webkit-filter: brightness(200%);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.1);
+      filter: brightness(200%);
+    }
+  }

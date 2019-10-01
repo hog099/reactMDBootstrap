@@ -1,0 +1,12 @@
+.carouselcontainer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carouselInnerDiv{
+    max-height: 15rem;
+}
+
+.carouselCaption{
+    margin-bottom: 0.1rem;
+}

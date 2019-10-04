@@ -1,0 +1,58 @@
+.containerCategoriaItemList{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f8f8f8;
+}
+
+.containerListCategoriaVertical{
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.boxListCat{
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+.boxListCat ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.boxListCat li{
+    border-bottom: 1px solid #ddd;
+}
+
+.boxListCat li:hover{
+    background-color: #428ae9;
+    color: #fff;
+    margin-right: -1rem;
+    transition-delay: 0.1s;
+}
+
+.boxListCat li a{
+    display: block;
+    font-size: 14px;
+    padding: 15px 10px;
+    position: relative;
+    color: #777;
+}
+
+.boxListCat li a:hover{
+    color: #fff;
+}
+
+.boxListCat li a i{
+    font-size: 22px;
+    margin-right: 5px;
+    float: left;
+}
+
+

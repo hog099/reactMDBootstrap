@@ -1,7 +1,6 @@
 .bannercontainer{
     width: 100%;
     min-height: 15rem;
-    position: absolute;
     margin: 0 auto;
     background-color: #4e525f;
 }
@@ -10,7 +9,7 @@
     text-transform: uppercase;
     font-weight: 300;
     margin: 0 auto;
-    margin-top: 5rem;
+    padding-top: 5rem;
     color: #fff;
 }
 

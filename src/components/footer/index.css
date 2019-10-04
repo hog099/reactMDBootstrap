@@ -1,0 +1,87 @@
+.FooterSite{
+    background-color: #353535 !important;
+    color: #fff !important;
+}
+
+ .containerFooter{
+    padding: 1rem;
+}
+
+ .containerFooter h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+ .containerFooter a{
+    text-decoration: none;
+    transition: all 0.2s ease;
+    outline: none;
+    display: block;
+    position: relative;
+    color: #fdf7ac;
+    font-size: 16px;
+    padding-left: 40px;
+    /* margin-left: -5rem; */
+    margin-left: -3rem;
+}
+
+.containerFooter a:hover{
+    color: #ececec;
+    font-size: 17px;
+}
+
+
+ .containerFooter ul{
+    list-style: none;
+    margin-left: -2rem;
+   
+}
+
+ .containerFooter li{
+    color: #fff;
+}
+
+ .containerFooter ul li a{
+    color: #fff;
+}
+
+ .containerFooter ul li a:hover{
+    color: #a0a0a0;
+}
+
+
+
+.social_footer{
+    text-align: center;
+    border-top: 1px solid #ffffff33;
+    /* padding-top: 15px;
+    margin-top: 15px; */
+}
+
+.social_footer ul{
+    margin: 0;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+
+.social_footer li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 3rem;
+}
+
+.social_footer ul li a{
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+}
+
+.social_footer i{
+    font-size: 3.5rem;
+    color: #f4314c;
+}
+.social_footer i:hover{
+    font-size: 3.6rem;
+    color: #f30c2b;
+}

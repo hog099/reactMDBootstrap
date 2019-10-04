@@ -17,7 +17,7 @@ export default function highlights() {
 
                 <MDBRow>
 
-                <MDBCol md className="content-listitem">
+                <MDBCol md="12" className="content-listitem">
                     
                         <ul>
                             <li><a href="/#/">

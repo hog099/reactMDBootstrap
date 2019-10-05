@@ -1,0 +1,21 @@
+.containerOffersItemList{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f8f8f8;
+}
+
+.containerOffersItem{
+    margin-left: 4rem;
+}
+
+.maintitleoffers{
+    margin-top: -2rem;
+    text-align: center;
+}
+
+.maintitleoffers h2{
+    font-weight: bold;
+}
+.maintitleoffers h2 span{
+    color: #f70b0b;
+}

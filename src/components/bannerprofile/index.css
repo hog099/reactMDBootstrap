@@ -1,0 +1,32 @@
+.BannerProfileContainer{
+    width: 100%;
+    min-height: 15rem;
+    max-height: auto;
+    margin: 0 auto;
+    background-color: #4e525f;
+    margin-top: 1rem;
+    /* margin-right: 0 !important;
+    margin-left: 0 !important; */
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+
+}
+
+.titlebannerProfile{
+    margin-top: 10rem;
+    margin-bottom: -0.8rem !important;
+    padding: 0.3rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.BannerProfileContainer p{
+    color: #fff;
+    padding: 0.3rem;
+    max-width: 60%;
+}
+
+.bannerProfileInfo{
+    
+}

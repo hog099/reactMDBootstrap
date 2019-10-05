@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router } from 'react-router-dom'
+import { Router, HashRouter  } from 'react-router-dom'
 import Routes from './routes';
 
 import {createBrowserHistory} from 'history';
@@ -8,9 +8,9 @@ const history = createBrowserHistory();
 function App() {
   return (
     <>
-    <Router history={history}>
+    <HashRouter  history={history}>
     <Routes />    
-    </Router>
+    </HashRouter >
     </>
   );
 }
